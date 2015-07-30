@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 chgrp -R tomcat8 /etc/tomcat8
