@@ -9,7 +9,7 @@ else
 cat << EOF > /etc/tomcat8/tomcat-users.xml
 <?xml version='1.0' encoding='utf-8'?>
 <tomcat-users>
-<user username="${ADMIN_USER}" password="${ADMIN_PASS}" roles="admin-gui,manager-gui"/>
+<user username="${ADMIN_USER}" password="${ADMIN_PASS}" roles="admin-gui,manager-gui,admin-script,manager-status,manager-script,manager-jmx"/>
 </tomcat-users>
 EOF
   #needed for fix problem with ubuntu and cron
